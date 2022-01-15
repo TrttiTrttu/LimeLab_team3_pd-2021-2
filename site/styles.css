@@ -1,47 +1,68 @@
-html, body {
-    font-size: 30px;
-    margin: 0;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-    display: flex;
-    padding: 20px 10%;
-    background-color: #39b54a;
-    justify-content:space-around;
-    text-transform: uppercase;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
+html {
+    font-size: 20px;
+    width: 100%;
 }
 
 main {
-    padding: 20px 0;
-    background-color: #009245;
-    
+     color: white;
+     font-family: 'Comfortaa', cursive;
+ }
+
+header {
+    font-family: 'Comfortaa', cursive;
 }
 
-.main-menu li {
-    list-style-type: none;
+h1 {
+    text-align: center;
 }
 
-a {
+.navbar {
+    background-color: #83f3ed;
+    font-weight: bold;
+}
+
+.greeting {
+    background-color: #39b54a;
+}
+
+.members {
+    background-color: #009443;
+}
+
+.achievments {
+    background-color: #08703f;
+}
+
+.contacts {
+    background-color: #39b54a;
+}
+
+.footer {
+    background-color: #83f3ed;
+}
+
+.heading-line {
+    background-color: #83f3ed;
+    height: 4px;
+    width: 300px;
+}
+
+.list {
+    display:block;
+}
+
+.list a{
     text-decoration: none;
     color: white;
 }
 
-a:hover {
-    text-decoration: none;
-    transition: 0.25s;
-    color: black;
+.list li{
+    list-style-type: none;
+    display: inline;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: #39b54a;
-    padding: 20px 0;
+.list a:hover{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
 }
